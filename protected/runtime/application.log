@@ -1,0 +1,79 @@
+2012/04/09 17:43:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CWebApplication.php(135): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\xampp\doneRatingPortal\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\xampp\doneRatingPortal\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/xampp/doneratingportal/index.php?r=gii
+---
+2012/04/09 17:44:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CWebApplication.php(135): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\xampp\doneRatingPortal\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\xampp\doneRatingPortal\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/xampp/doneratingportal/index.php?r=gii
+---
+2012/04/09 17:45:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CWebApplication.php(135): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\xampp\doneRatingPortal\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\xampp\doneRatingPortal\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/xampp/doneratingportal/index.php?r=gii
+---
+2012/04/03 03:20:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CWebApplication.php(135): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\xampp\doneRatingPortal\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\xampp\doneRatingPortal\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/xampp/doneratingportal/index.php?r=gii
+---
+2012/04/03 16:10:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CController.php(271): CController->missingAction('')
+#1 C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CWebApplication.php(276): CController->run('')
+#2 C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CWebApplication.php(135): CWebApplication->runController('doneSearch/done...')
+#3 C:\xampp\htdocs\xampp\doneRatingPortal\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\xampp\doneRatingPortal\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/xampp/doneratingportal/index.php/doneSearch/doneSearchStuff
+HTTP_REFERER=http://localhost/xampp/doneratingportal/index.php/gii/controller
+---
+2012/04/10 20:19:31 [error] [exception.CException] exception 'CException' with message 'CHttpRequest is unable to determine the request URI.' in C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CHttpRequest.php:469
+Stack trace:
+#0 C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CHttpRequest.php(381): CHttpRequest->getRequestUri()
+#1 C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CUrlManager.php(361): CHttpRequest->getPathInfo()
+#2 C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CWebApplication.php(134): CUrlManager->parseUrl(Object(CHttpRequest))
+#3 C:\xampp\htdocs\xampp\doneRatingPortal\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\xampp\doneRatingPortal\index.php(13): CApplication->run()
+#5 {main}
+---
+2012/04/10 20:34:44 [error] [exception.CException] exception 'CException' with message 'CHttpRequest is unable to determine the request URI.' in C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CHttpRequest.php:469
+Stack trace:
+#0 C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CHttpRequest.php(381): CHttpRequest->getRequestUri()
+#1 C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CUrlManager.php(361): CHttpRequest->getPathInfo()
+#2 C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CWebApplication.php(134): CUrlManager->parseUrl(Object(CHttpRequest))
+#3 C:\xampp\htdocs\xampp\doneRatingPortal\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\xampp\doneRatingPortal\index.php(13): CApplication->run()
+#5 {main}
+---
+2012/04/10 20:35:42 [error] [exception.CException] exception 'CException' with message 'CHttpRequest is unable to determine the request URI.' in C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CHttpRequest.php:469
+Stack trace:
+#0 C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CHttpRequest.php(381): CHttpRequest->getRequestUri()
+#1 C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CUrlManager.php(361): CHttpRequest->getPathInfo()
+#2 C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CWebApplication.php(134): CUrlManager->parseUrl(Object(CHttpRequest))
+#3 C:\xampp\htdocs\xampp\doneRatingPortal\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\xampp\doneRatingPortal\index.php(13): CApplication->run()
+#5 {main}
+---
+2012/04/11 16:14:14 [error] [exception.CException] exception 'CException' with message 'CHttpRequest is unable to determine the request URI.' in C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CHttpRequest.php:469
+Stack trace:
+#0 C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CHttpRequest.php(381): CHttpRequest->getRequestUri()
+#1 C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CUrlManager.php(361): CHttpRequest->getPathInfo()
+#2 C:\xampp\htdocs\xampp\doneRatingPortal\framework\web\CWebApplication.php(134): CUrlManager->parseUrl(Object(CHttpRequest))
+#3 C:\xampp\htdocs\xampp\doneRatingPortal\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\xampp\doneRatingPortal\index.php(13): CApplication->run()
+#5 {main}
+---
